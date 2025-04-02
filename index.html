@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secon page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <header>
+        <div class="container mx-auto max-w-screen-xl px-4" style="max-width: 1128px;">
+            <nav class="flex flex-col md:flex-row justify-between items-center p-4">
+                <div class="flex space-x-4 mb-4 md:mb-0">
+                    <a class="link text-gray-700 text-xl" href="#">Вакансии</a>
+                    <a class="link text-gray-700 text-xl" href="#">Резюме</a>
+                    <a class="link text-gray-700 text-xl" href="#">Цены и услуги</a>
+                </div>
+                <div class="flex items-center gap-[10px] mb-4 md:mb-0">
+                    <img src="./icons/carbon_laptop.svg" alt="Homester.pro logo" class="h-8">
+                    <span class="text-gray-700 font-bold text-xl">Homester.pro</span>
+                </div>
+                <div class="flex space-x-4 items-center">
+                    <a class="text-pink-500 flex items-center" href="#">
+                       <button>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.9289 11.1429H12.8574V7.07146C12.8574 6.95361 12.761 6.85718 12.6431 6.85718H11.3574C11.2396 6.85718 11.1431 6.95361 11.1431 7.07146V11.1429H7.07171C6.95385 11.1429 6.85742 11.2393 6.85742 11.3572V12.6429C6.85742 12.7607 6.95385 12.8572 7.07171 12.8572H11.1431V16.9286C11.1431 17.0465 11.2396 17.1429 11.3574 17.1429H12.6431C12.761 17.1429 12.8574 17.0465 12.8574 16.9286V12.8572H16.9289C17.0467 12.8572 17.1431 12.7607 17.1431 12.6429V11.3572C17.1431 11.2393 17.0467 11.1429 16.9289 11.1429Z" fill="#FF4A96"/>
+                            <path d="M12 0C5.37321 0 0 5.37321 0 12C0 18.6268 5.37321 24 12 24C18.6268 24 24 18.6268 24 12C24 5.37321 18.6268 0 12 0ZM12 21.9643C6.49821 21.9643 2.03571 17.5018 2.03571 12C2.03571 6.49821 6.49821 2.03571 12 2.03571C17.5018 2.03571 21.9643 6.49821 21.9643 12C21.9643 17.5018 17.5018 21.9643 12 21.9643Z" fill="#FF4A96"/>
+                            </svg>                        
+                       </button>
+                        <span class="ml-1">Резюме</span>
+                    </a>
+                    <a class="text-pink-500 flex items-center" href="#">
+                        <button>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.9289 11.1429H12.8574V7.07146C12.8574 6.95361 12.761 6.85718 12.6431 6.85718H11.3574C11.2396 6.85718 11.1431 6.95361 11.1431 7.07146V11.1429H7.07171C6.95385 11.1429 6.85742 11.2393 6.85742 11.3572V12.6429C6.85742 12.7607 6.95385 12.8572 7.07171 12.8572H11.1431V16.9286C11.1431 17.0465 11.2396 17.1429 11.3574 17.1429H12.6431C12.761 17.1429 12.8574 17.0465 12.8574 16.9286V12.8572H16.9289C17.0467 12.8572 17.1431 12.7607 17.1431 12.6429V11.3572C17.1431 11.2393 17.0467 11.1429 16.9289 11.1429Z" fill="#FF4A96"/>
+                                <path d="M12 0C5.37321 0 0 5.37321 0 12C0 18.6268 5.37321 24 12 24C18.6268 24 24 18.6268 24 12C24 5.37321 18.6268 0 12 0ZM12 21.9643C6.49821 21.9643 2.03571 17.5018 2.03571 12C2.03571 6.49821 6.49821 2.03571 12 2.03571C17.5018 2.03571 21.9643 6.49821 21.9643 12C21.9643 17.5018 17.5018 21.9643 12 21.9643Z" fill="#FF4A96"/>
+                                </svg>                        
+                           </button>
+                        <span class="ml-1">Вакансия</span>
+                    </a>
+                    <a class="text-gray-700 bg-[#F8F8F8] rounded-sm w-[61px] h-[24px] flex items-center justify-center text-base" href="#">Войти</a>
+    
+                </div>
+            </nav>
+        </div>
+       </header>
+
+       <main class="bg-[#F8F8F8] pt-[40px] pb-[80px]">
+        <section class="px-4 py-6">
+            <div class="max-w-[1128px] mt-[40px] mb-[40px] w-full flex flex-wrap md:flex-nowrap items-center justify-center md:justify-between gap-4 mx-auto">
+                <div class="text-center bg-white w-[168px] h-[80px] w-full flex flex-col items-center justify-center text-gray-600 leading-[20px] font-normal shadow-md">
+                  
+                    <p>Все вакансии</p>
+                </div>
+                <div class="text-center bg-white w-[168px] h-[80px] w-full flex flex-col items-center justify-center text-gray-600 leading-[20px] font-normal shadow-md">
+                   
+                    <p>Оператор <br>call-центра</p>
+                </div>
+                <div class="text-center bg-white w-[168px] h-[80px] w-full flex flex-col items-center justify-center text-gray-600 leading-[20px] font-normal shadow-md">
+                   
+                    <p>Оператор <br> поддержки</p>
+                </div>
+                <div class="text-center bg-white w-[168px] h-[80px] w-full flex flex-col items-center justify-center text-gray-600 leading-[20px] font-normal shadow-md">
+                
+                    <p>Персональный <br> ассистент</p>
+                </div>
+                <div class="text-center bg-white w-[168px] h-[80px] w-full flex flex-col items-center justify-center text-gray-600 leading-[20px] font-normal shadow-md">
+                   
+                    <p>Контент- <br> менеджер</p>
+                </div>
+                <div class="text-center bg-white w-[168px] h-[80px] w-full flex flex-col items-center justify-center text-gray-600 leading-[20px] font-normal shadow-md">
+               
+                    <p>Системный <br>администратор</p>
+                </div>
+            </div>
+        </section>  
+
+        <section class="mb-10">
+            <div class="p-4 max-w-[1128px] w-full bg-white flex flex-wrap sm:flex-nowrap items-center justify-center sm:justify-between mx-auto">
+                <div class="p-4 flex items-center w-full sm:w-[774px] h-12 bg-gray-100 rounded-md gap-3 text-gray-600">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 18.954L14.4133 13.3673C15.7558 11.7556 16.4253 9.68835 16.2825 7.59562C16.1396 5.50288 15.1954 3.54579 13.6464 2.13146C12.0973 0.717125 10.0626 -0.0455437 7.96554 0.00210549C5.86847 0.0497547 3.87051 0.904053 2.38728 2.38728C0.904053 3.87051 0.0497547 5.86847 0.00210549 7.96554C-0.0455437 10.0626 0.717125 12.0973 2.13146 13.6464C3.54579 15.1954 5.50288 16.1396 7.59562 16.2825C9.68835 16.4253 11.7556 15.7558 13.3673 14.4133L18.954 20L20 18.954ZM1.50598 8.16382C1.50598 6.84703 1.89645 5.5598 2.62803 4.46492C3.3596 3.37004 4.39941 2.51669 5.61598 2.01277C6.83254 1.50886 8.17121 1.37701 9.46271 1.6339C10.7542 1.8908 11.9405 2.5249 12.8716 3.45601C13.8028 4.38713 14.4369 5.57345 14.6937 6.86494C14.9506 8.15644 14.8188 9.49511 14.3149 10.7117C13.811 11.9282 12.9576 12.9681 11.8627 13.6996C10.7678 14.4312 9.48062 14.8217 8.16382 14.8217C6.39865 14.8197 4.70634 14.1176 3.45818 12.8695C2.21001 11.6213 1.50793 9.92899 1.50598 8.16382Z" fill="#849A9C"/>
+                    </svg>                  
+                    <input class="flex-grow bg-transparent outline-none" type="text" placeholder="Поиск по вакансиям">
+                </div>
+                <div class="max-w-[298px] flex gap-3 w-full mt-3 sm:mt-0">
+                    <button class="w-full text-gray-500 flex items-center justify-center border border-gray-500 px-6 py-3">
+                        <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.7001 10.2C11.9388 10.2 12.1677 10.2948 12.3365 10.4636C12.5053 10.6324 12.6001 10.8613 12.6001 11.1C12.6001 11.3387 12.5053 11.5676 12.3365 11.7364C12.1677 11.9052 11.9388 12 11.7001 12H6.3001C6.0614 12 5.83248 11.9052 5.6637 11.7364C5.49492 11.5676 5.4001 11.3387 5.4001 11.1C5.4001 10.8613 5.49492 10.6324 5.6637 10.4636C5.83248 10.2948 6.0614 10.2 6.3001 10.2H11.7001ZM14.1001 5.1C14.3388 5.1 14.5677 5.19482 14.7365 5.3636C14.9053 5.53239 15.0001 5.76131 15.0001 6C15.0001 6.2387 14.9053 6.46761 14.7365 6.6364C14.5677 6.80518 14.3388 6.9 14.1001 6.9H3.9001C3.6614 6.9 3.43248 6.80518 3.2637 6.6364C3.09492 6.46761 3.0001 6.2387 3.0001 6C3.0001 5.76131 3.09492 5.53239 3.2637 5.3636C3.43248 5.19482 3.6614 5.1 3.9001 5.1H14.1001ZM16.5001 0C16.7388 0 16.9677 0.094821 17.1365 0.263604C17.3053 0.432387 17.4001 0.661305 17.4001 0.9C17.4001 1.13869 17.3053 1.36761 17.1365 1.5364C16.9677 1.70518 16.7388 1.8 16.5001 1.8H1.5001C1.2614 1.8 1.03248 1.70518 0.863701 1.5364C0.694919 1.36761 0.600098 1.13869 0.600098 0.9C0.600098 0.661305 0.694919 0.432387 0.863701 0.263604C1.03248 0.094821 1.2614 0 1.5001 0H16.5001Z" fill="#849A9C"/>
+                            </svg>
+                        Фильтр (5)
+                    </button>
+                </div> 
+            </div>
+        </section>
+        
+        <section class="max-w-[1128px] mx-auto grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="bg-white p-6 rounded-lg shadow-lg max-w-[552px] w-full">
+                <div class="flex justify-between items-center mb-4">
+                    <h1 class="text-lg font-bold text-gray-800">Сотрудник call-центра</h1>
+                    <img src="./images/image36.png" alt="">
+                </div>
+                <div class="flex items-center text-pink-500 mb-4">
+                    <i class="fas fa-briefcase mr-2"></i>
+                    <span class="font-bold">150 000 Р - 300 000 Р</span>
+                </div>
+                <p class="text-gray-600 mb-4">
+                    Мы в поисках менеджера по продажам. Что Вы будете делать: Поиск и работа с потенциальными клиентами, установление...
+                </p>
+                
+                <div class="flex items-center text-gray-500 space-x-4">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_3617_463)">
+                        <path d="M10 0C4.48609 0 0 4.48609 0 10C0 15.5139 4.48609 20 10 20C15.5139 20 20 15.5139 20 10C20 4.48609 15.5139 0 10 0ZM10 18.3333C7.72984 18.3333 5.67109 17.4186 4.16668 15.9412V14.5833C4.16668 14.187 4.3441 13.9319 4.54918 13.6364C4.76035 13.3325 5 12.9879 5 12.5C5 11.7053 4.28262 11.6248 3.89688 11.5816C3.62098 11.5507 3.36059 11.5214 3.21125 11.3721C3.09812 11.2589 2.985 11.0535 2.86539 10.8362C2.62785 10.404 2.30586 9.83246 1.69285 9.48242C1.96234 5.12875 5.57957 1.66668 10 1.66668C10.2287 1.66668 10.4536 1.68285 10.6777 1.70102C10.6321 1.73098 10.5762 1.75133 10.5387 1.78875C10.4578 1.86973 10.4134 1.98082 10.4167 2.09555C10.4204 2.20988 10.4708 2.31813 10.5562 2.39461C10.706 2.52766 10.7349 2.5948 10.7406 2.5948C10.7312 2.61473 10.6547 2.74535 10.2283 2.96184C9.52434 3.31867 8.71137 4.04906 8.59051 4.80918C8.53516 5.15422 8.63527 5.47445 8.87207 5.71129C8.9502 5.78941 9.05598 5.83336 9.16668 5.83336C9.74531 5.83336 10.1925 5.61934 10.625 5.41262C11.0689 5.20059 11.4884 5 12.0833 5C13.7187 5 15 5.36621 15 5.83332C15 6.00461 14.9467 6.05711 14.9264 6.07664C14.7217 6.27805 14.0247 6.26504 13.4119 6.25566C13.2495 6.25281 13.0835 6.24996 12.9167 6.24996C12.3511 6.24996 12.1757 6.16734 11.9727 6.07133C11.7362 5.95984 11.4685 5.83328 10.8333 5.83328C10.1465 5.83328 8.87004 5.95738 8.03871 6.78867C7.35879 7.4682 7.43078 8.28117 7.47801 8.81871C7.48898 8.94242 7.5 9.05961 7.5 9.1666C7.5 9.9873 8.33863 10.4166 9.16668 10.4166C10.4403 10.4166 11.5414 10.6542 11.6667 10.8333C11.6667 11.2996 11.8054 11.6182 11.9169 11.8737C12.0097 12.0873 12.0833 12.2558 12.0833 12.4999C12.0833 12.6887 12.0524 12.729 11.969 12.8364C11.8099 13.0432 11.6666 13.2682 11.6666 13.7499C11.6666 14.6268 12.511 15.5887 12.607 15.6957C12.6871 15.7845 12.8003 15.8333 12.9166 15.8333C12.9512 15.8333 12.9858 15.8292 13.02 15.8203C13.2654 15.7572 15.4166 15.1652 15.4166 13.75C15.4166 13.3064 15.5546 13.1868 15.7637 13.0053C15.9688 12.8271 16.25 12.5834 16.25 12.0833C16.25 11.7492 16.8428 10.887 17.3921 10.2795C17.4699 10.1936 17.5085 10.0789 17.4984 9.96332C17.4882 9.84777 17.4304 9.74156 17.3389 9.67074C17.015 9.41969 16.1206 8.60223 15.8211 7.80918C15.9908 7.89789 16.2032 8.04234 16.3721 8.21121C16.5108 8.35078 16.6968 8.4175 16.9084 8.40898C17.2458 8.38973 17.6467 8.12309 18.0266 7.79051C18.221 8.49543 18.3334 9.2341 18.3334 10C18.3333 14.5951 14.5951 18.3333 10 18.3333Z" fill="#849A9C"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_3617_463">
+                        <rect width="20" height="20" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                        
+                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 7L5 11L12.5 1" stroke="#849A9C" stroke-width="2"/>
+                        </svg>
+                    <span>Рога и Копыта</span>
+                    <svg width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_3617_475)">
+                        <path d="M12.2599 4.57143L9.64278 0L7.02563 4.57143H12.2599Z" fill="#849A9C"/>
+                        <path d="M3.11714 11.4286L0.5 16H18.7857L16.1686 11.4286H3.11714Z" fill="#849A9C"/>
+                        <path d="M15.5171 10.2857L12.9114 5.71429H6.37427L3.76855 10.2857H15.5171Z" fill="#849A9C"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_3617_475">
+                        <rect width="18.2857" height="16" fill="white" transform="translate(0.5)"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                    <span>без опыта</span>
+                </div>
+            </div>
+        </section>
+        
+
+        <div class="text-center bg-white max-w-[1128px] h-[48px] mx-auto w-full flex flex-col items-center justify-center text-gray-300 leading-[20px] font-normal mt-[40px] mb-[80px] shadow-md">Eще 20 вакансий</div>
+
+        <section class="bg-white pt-[80px] pb-[80px]">
+            <div class="max-w-[1128px] mx-auto">
+                <h1 class="text-center text-2xl font-semibold text-gray-800  pb-[80px]">Помогаем строить удаленные отделы</h1>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="w-[360px] h-[220px] bg-white shadow-md p-6 rounded-lg">
+                        <h2 class="text-pink-500 text-lg font-semibold mb-2">Видео-собеседование</h2>
+                        <p class="text-gray-800 mb-2">490 руб.</p>
+                        <p class="text-gray-600">Регламенты и инструкции для создания удаленных отделов. Незаменимо для новичков в удалёнке и в малом бизнесе</p>
+                    </div>
+                    <div class="w-[360px] h-[220px] bg-white shadow-md p-6 rounded-lg">
+                        <h2 class="text-pink-500 text-lg font-semibold mb-2">Аудит вакансии</h2>
+                        <p class="text-gray-800 mb-2">990 руб.</p>
+                        <p class="text-gray-600">Регламенты и инструкции для создания удаленных отделов. Незаменимо для новичков в удалёнке и в малом бизнесе</p>
+                    </div>
+                    <div class="w-[360px] h-[220px] bg-white shadow-md p-6 rounded-lg">
+                        <h2 class="text-pink-500 text-lg font-semibold mb-2">Удаленный отдел под ключ</h2>
+                        <p class="text-gray-800 mb-2">от 499 000 руб.</p>
+                        <p class="text-gray-600">Регламенты и инструкции для создания удаленных отделов. Незаменимо для новичков в удалёнке и в малом бизнесе</p>
+                    </div>
+                    <div class="w-[360px] h-[220px] bg-white shadow-md p-6 rounded-lg">
+                        <h2 class="text-pink-500 text-lg font-semibold mb-2">Шаблоны документов «Удаленка»</h2>
+                        <p class="text-gray-800 mb-2">490 руб.</p>
+                        <p class="text-gray-600">Регламенты и инструкции для создания удаленных отделов. Незаменимо для новичков в удалёнке и в малом бизнесе</p>
+                    </div>
+                    <div class="w-[360px] h-[220px] bg-white shadow-md p-6 rounded-lg">
+                        <h2 class="text-pink-500 text-lg font-semibold mb-2">Обучающий курс</h2>
+                        <p class="text-gray-800 mb-2">990 руб.</p>
+                        <p class="text-gray-600">Регламенты и инструкции для создания удаленных отделов. Незаменимо для новичков в удалёнке и в малом бизнесе</p>
+                    </div>
+                    <div class="w-[360px] h-[220px] bg-white shadow-md p-6 rounded-lg">
+                        <h2 class="text-pink-500 text-lg font-semibold mb-2">Корпоративный тренинг «Убойная удаленка»</h2>
+                        <p class="text-gray-800 mb-2">от 499 000 руб.</p>
+                        <p class="text-gray-600">Регламенты и инструкции для создания удаленных отделов. Незаменимо для новичков в удалёнке и в малом бизнесе</p>
+                    </div>
+                </div>
+        
+               
+            </div>
+           </section>
+            
+
+          
+       </main>
+    
+       <footer class=" text-center text-gray-600  bg-white pb-[80px] pt-[80px]">
+        <p>© 2014-2021 homester.pro — сервис для подбора удаленных сотрудников</p>
+        <div class="flex justify-center space-x-4 mt-2">
+            <a href="#" class="text-gray-600 hover:text-gray-800">Контактная информация</a>
+            <a href="#" class="text-gray-600 hover:text-gray-800">Политика конфиденциальности</a>
+            <a href="#" class="text-gray-600 hover:text-gray-800">Пользовательское соглашение</a>
+        </div>
+    </footer>
+</body>
+</html>

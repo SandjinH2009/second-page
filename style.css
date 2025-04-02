@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Rubik", sans-serif;
+}
+
+.link{
+    position: relative;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+.link::after{
+    content: "";
+    position: absolute;
+    background-color: grey;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s ease width;
+}
+.link:hover::after{
+    width: 100%;
+}
